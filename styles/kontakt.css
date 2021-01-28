@@ -236,11 +236,6 @@
   }
 
   /*PLUGIN*/
-  .map-responsive{
-   
-    padding: 0.5em; 
-    margin: 0;
-  }
 
   
   #selektuj .ui-selecting  {
@@ -336,7 +331,7 @@ label {
     width: 10em;
   }
 
-  fieldset{
+fieldset{
       width: 200px;
       
   }

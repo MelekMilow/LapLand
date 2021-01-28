@@ -14,27 +14,23 @@ $(function(){
     $(".draggable").draggable();
 });
 
-/*NE RADI*/
-$( function() {
-    $(".map-responsive").resizable();
-  } );
 
 $( function() {
     $( "#selektuj" ).selectable();
   } );
   
-  $( function() {
+$( function() {
     $( "#resizable" ).resizable();
   } );
 
-  $( function() {
+$( function() {
     $( ".widget input[type=submit], .widget a, .widget button" ).button();
     $( "button, input, a" ).click( function( event ) {
       event.preventDefault();
     } );
   } );
 
-  $( function() {
+ $( function() {
     $( "#novodugme" ).on( "click", function() {
       $( "#effect" ).addClass( "newClass", 1000, callback );
     });
@@ -47,7 +43,7 @@ $( function() {
   } );
 
 
-  $( function() {
+$( function() {
     function runEffect() {
       
       $( "#effect" ).toggle( "scale", { percent: 50 }, 500 );
@@ -57,7 +53,7 @@ $( function() {
     });
   } );
  
-  $( function() {
+$( function() {
     function runEffect() {
       
       $( "#effect" ).toggle( "shake", { percent: 50 }, 500 );
@@ -68,15 +64,15 @@ $( function() {
   } );
  
 
-  $( "input" ).labels().addClass( "ui-state-highlight" )
+$( "input" ).labels().addClass( "ui-state-highlight" )
 
 
 
-  $( function() {
+$( function() {
     $( document ).tooltip();
-  } );
+    } );
 
-  $( function() {
+$( function() {
     $( "input" ).checkboxradio();
   } );
 
