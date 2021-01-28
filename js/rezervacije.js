@@ -49,12 +49,9 @@ function proveriBroj(myString) {
     }
   }
 
-  $( function() {
-    $( "input" ).labels().addClass( "ui-state-highlight" );
-    } );
 
  
-  $( function() {
+function brojOsoba() {
     
     $( "#brojOsoba" )
       .selectmenu()
@@ -62,6 +59,6 @@ function proveriBroj(myString) {
         .addClass( "overflow" );
  
   
-  } );
+  } ;
 
 

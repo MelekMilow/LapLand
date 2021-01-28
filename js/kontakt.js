@@ -73,7 +73,9 @@ $( function() {
     $( "textarea" ).tooltip();
     
     } );
-/*
+
+
+    /*
 $( function() {
     $( "input" ).checkboxradio();
   } );
