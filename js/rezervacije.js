@@ -49,12 +49,11 @@ function proveriBroj(myString) {
     }
   }
 
-  $( "input" ).labels().addClass( "ui-state-highlight" )
-
   $( function() {
-    $( document ).tooltip();
-  } );
+    $( "input" ).labels().addClass( "ui-state-highlight" );
+    } );
 
+ 
   $( function() {
     
     $( "#brojOsoba" )
@@ -64,3 +63,5 @@ function proveriBroj(myString) {
  
   
   } );
+
+

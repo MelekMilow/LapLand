@@ -64,16 +64,18 @@ $( function() {
   } );
  
 
-$( "input" ).labels().addClass( "ui-state-highlight" )
 
+ 
 
 
 $( function() {
-    $( document ).tooltip();
+    $( "input" ).tooltip();
+    $( "textarea" ).tooltip();
+    
     } );
-
+/*
 $( function() {
     $( "input" ).checkboxradio();
   } );
 
- 
+ */

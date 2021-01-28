@@ -125,6 +125,12 @@
         border-top-width: 0px;
         border-bottom-width: 0px;
     }
+    .novideo1{
+        border-right-width: 30px;
+        border-left-width: 30px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+    }
     input[ type= "text" ] {width:150px}
     textarea {width:150px}
   }
@@ -146,6 +152,12 @@
         border-top-width: 0px;
         border-bottom-width: 0px;
     }
+    .novideo1{
+        border-right-width: 50px;
+        border-left-width: 50px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+    }
     input[ type= "text" ] {width:250px;}
     textarea {width:250px;}
   }
@@ -161,6 +173,12 @@
         /* border-color: green; */
     }
     .map{
+        border-right-width: 50px;
+        border-left-width: 50px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+    }
+    .novideo1{
         border-right-width: 50px;
         border-left-width: 50px;
         border-top-width: 0px;
@@ -188,6 +206,12 @@
         border-top-width: 0px;
         border-bottom-width: 0px;
     }
+    .novideo1{
+        border-right-width: 70px;
+        border-left-width: 70px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+    }
     input[ type= "text" ] {width:350px}
     textarea {width:350px}
   } 
@@ -210,6 +234,13 @@
         border-top-width: 0px;
         border-bottom-width: 0px;
     }
+    .novideo1{
+        border-right-width: 90px;
+        border-left-width: 90px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+
+    }
     input[ type= "text" ] {width:400px}
     textarea {width:400px}
   } 
@@ -230,10 +261,24 @@
         border-top-width: 0px;
         border-bottom-width: 0px;
     }
+    .novideo1{
+        border-right-width: 150px;
+        border-left-width: 150px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+
+    }
     input[ type= "text" ] {width:500px}
     textarea {width:500px}
     
   }
+
+  @media (max-width:800px){
+    .flex{
+        flex-direction: column;
+    }
+}
+
 
   /*PLUGIN*/
 
@@ -255,7 +300,7 @@
       }
 
 .novideo {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 280px;
     width:100%; 
       }
@@ -331,9 +376,15 @@ label {
     width: 10em;
   }
 
+ 
+
 fieldset{
       width: 200px;
       
   }
+ 
 
-
+.ui-tooltip { background:white; color:black; padding:0; 
+    border-radius: 50px;
+    width:300px; }
+.ui-tooltip-content { position: relative; padding: 10px; }
