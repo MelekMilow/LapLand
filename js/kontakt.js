@@ -11,7 +11,11 @@ if ((ime == "") || (email == "") || (komentar == "") ) {
 }
 
 $(function(){
-    $(".draggable").draggable();
+    $(".draggable").draggable( );
+});
+
+$(function(){
+  $(".draggableFU").draggable( {helper : "clone"});
 });
 
 
@@ -71,6 +75,7 @@ $( function() {
 $( function() {
     $( "input" ).tooltip();
     $( "textarea" ).tooltip();
+   
     
     } );
 

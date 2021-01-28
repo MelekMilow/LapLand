@@ -56,9 +56,9 @@ function brojOsoba() {
     $( "#brojOsoba" )
       .selectmenu()
       .selectmenu( "menuWidget" )
-        .addClass( "overflow" );
+      .addClass( "overflow" );
  
   
   } ;
 
-
+  

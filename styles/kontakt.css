@@ -1,15 +1,20 @@
  body{
     background-color:black;  
-    color: rgb(221 164 97);
+    color: transparent;
     display: flex;
     flex-direction: column; 
     justify-content: center;      
  } 
+ label{
+   color: rgb(221 164 97);
+
+ }
 
  .navigacija{
      flex-basis: 300px;     
  }
 
+ 
  /* .navigacija a{
     font-size:10px;   
  } */
@@ -283,12 +288,12 @@
   /*PLUGIN*/
 
   
-  #selektuj .ui-selecting  {
+ #selektuj .ui-selecting  {
       background: rgb(173 11 0); 
 }
  #selektuj { 
      list-style-type: none;
-     }
+}
  
  .flex{
     display: flex;
@@ -385,4 +390,8 @@ fieldset{
     border-radius: 50px;
     width:300px; }
 .ui-tooltip-content { position: relative; padding: 10px; }
+
+
+
+
 
