@@ -35,3 +35,16 @@ var slideIndex = 1;
     $( function() {
       $( document ).tooltip();
     } );
+
+    
+      $( function() {
+        $( "#dialog" ).dialog();
+      } );
+      
+      $( function() {
+        $( "#tabs" ).tabs();
+      } );
+
+      $( function() {
+        $( "#draggable" ).draggable();
+      } );

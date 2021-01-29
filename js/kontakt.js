@@ -23,16 +23,16 @@ $( function() {
     $( "#selektuj" ).selectable();
   } );
   
+  $( function() {
+    $( "#selectable" ).selectable();
+  } );
 $( function() {
     $( "#resizable" ).resizable();
   } );
 
-$( function() {
-    $( ".widget input[type=submit], .widget a, .widget button" ).button();
-    $( "button, input, a" ).click( function( event ) {
-      event.preventDefault();
-    } );
-  } );
+  $(function() {
+    $( "#dugme" ).button();
+  })
 
  $( function() {
     $( "#novodugme" ).on( "click", function() {
@@ -79,6 +79,16 @@ $( function() {
     
     } );
 
+    $( function() {
+      $( "#novodugme" ).tooltip();
+      $( "#novodugme1" ).tooltip({show: "fold", });
+      $( "#novodugme2" ).tooltip({
+        disabled: true
+     });
+     
+      
+      } );
+  
 
     /*
 $( function() {

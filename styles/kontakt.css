@@ -377,21 +377,38 @@
 
 
 
-
- 
-/*
-fieldset{
-      width: 200px;
-      
-  }
- */
-
 .ui-tooltip { background:white; color:black; padding:0; 
     border-radius: 50px;
     width:300px; }
 .ui-tooltip-content { position: relative; padding: 10px; }
 
 
+#feedback { font-size: 8em; }
+#selectable .ui-selecting { 
+    color:black;
+    background:rgb(221 164 97); 
+}
+ #selectable .ui-selected { 
+     color:black;
+    background:rgb(221 164 97); }
+  #selectable { 
+      color:rgb(221 164 97); 
+      list-style-type: none; 
+      margin: 0;
+       padding: 0;
+        width: 450px; 
+        ;
 
+
+    }
+  #selectable li { 
+      margin: 3px; 
+      padding: 1px;
+       float: left;
+        width: 60px;
+         height: 50px;
+          font-size: 1.5em;
+           text-align: center; 
+}
 
 

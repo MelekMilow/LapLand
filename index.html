@@ -7,7 +7,11 @@
     <title>Lapland</title>
     <link rel="stylesheet" type="text/css" href="styles/header.css">
     <link rel="stylesheet" type="text/css" href="styles/oNama.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <!--script src="js/oNama.js"></script-->
+   
 </head>
 
 <body>
@@ -16,17 +20,37 @@
   
     <nav class="navigacija">
         <a class="aktivna-strana" href="index.html">O nama</a>
-        <a href="pages/jelovnik.html">Jelovnik</a>
-        <a href="pages/rezervacije.html">Rezervacije</a>
-        <a href="pages/kontakt.html">Kontakt</a>
+        <a href="pages/jelovnik.html" title="Kliknite da pogledate jelovnik.">Jelovnik</a>
+        <a href="pages/rezervacije.html" title="Kliknite da rezervišete svoje mesto u restoranu.">Rezervacije</a>
+        <a href="pages/kontakt.html" title="Pogledajte kako da nas kontaktirate.">Kontakt</a>
     </nav>
 </header>
+<div id="dialog" title="Dobrodošli u Lapland">
+  <p>Uživajte u ukusima Francuske! Pogledajte širok asortiman naše kuhinje na strani Jelovnik, ako želite da nas posetite posetite stranu Kontakt kako biste nas pronašli i stranu Rezervacije kako biste rezervisali.</p>
+</div>
 <div class="div-slika">
+  <div id="tabs">
+    <ul>
+      <li><a href="#tabs-1">ORIGINALNI I NEPONOVILJIVI</a></li>
+      <li><a href="#tabs-2">ENTERIJER KOJI ODUZIMA DAH</a></li>
+      <li><a href="#tabs-3">JEDINSTVENA PONUDA U SRBIJI I NA BALKANU</a></li>
+    </ul>
+    <div id="tabs-1">
+      <p>Jedna od najlepših lokacija za opuštanje i provod u Beogradu bogatija je za novi ekskluzivni restoran francuske kuhinje – Lapland. Ovaj savremeni restoran sa sofisticiranim prizvukom zapada objedinio je vrhunske ukuse francuske kuhinje i veličanstven pogled na ušće Save u Dunav..</p>
+    </div>
+    <div id="tabs-2">
+      <p>Ono što nas izdvaja su jedinstveni specijaliteti od kavijara i veliki izbor penušavih vina. Ova ponuda upotpuniće vaše putovanje Francuskom na obali Save, u srcu Beograda. Svi ljubitelji vrhunskih ukusa dobrodošli su svih sedam dana u nedelji.Sredom, četvrtkom, petkom i subotom naši gosti mogu uživati u zvucima francuske muzike.</p>
+    </div>
+    <div id="tabs-3">
+      <p>Sredom, četvrtkom, petkom i subotom naši gosti mogu uživati u zvucima francuske muzike uz jedinstveni izbor kavijara koji se retko može naći u Srbiji i na Balkanu.</p>
+    </div>
+  </div>
+  <br>
 </div>
 <br>
 <br>
 <div class="parent">
-<div class="paragrafONama">
+<div class="paragrafONama" id="draggable">
      <h1>O nama</h1>
     <p>Jedna od najlepših lokacija za opuštanje i provod u Beogradu bogatija je za novi ekskluzivni restoran francuske kuhinje - Lapland. Ovaj savremeni restoran sa sofisticiranim prizvukom zapada objedinio je vrhunske ukuse francuske kuhinje i veličanstven pogled na ušće Save u Dunav.</p>
     <p>Ono što nas izdvaja su jedinstveni specijaliteti od kavijara i veliki izbor penušavih vina. Ova ponuda upotpuniće vaše putovanje Francuskom na obali Save, u srcu Beograda. Svi ljubitelji vrhunskih ukusa dobrodošli su svih sedam dana u nedelji.</p>
