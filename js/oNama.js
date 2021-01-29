@@ -48,3 +48,7 @@ var slideIndex = 1;
       $( function() {
         $( "#draggable" ).draggable();
       } );
+
+      $( function() {
+        $( "input" ).checkboxradio();
+      } );

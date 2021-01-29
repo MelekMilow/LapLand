@@ -61,6 +61,24 @@ body{
   background: black !important;
   color: rgb(221 164 97) !important;
 }
+#tabs{
+  font-family: Lucida Handwriting, cursive;
+}
 
-
+h1{
+  color: black !important;
+  background-image:url("../images/restoran2.jpg"); 
+  text-align: center;
+  width: 500px;
+  border-radius: 100%;
+  font-family: Lucida Handwriting, cursive;
+}
+fieldset{
+ width: 300px;
+ margin-left:85px;
+}
+legend{
+  background-color: black;
+  color:red;
+}
 
