@@ -62,6 +62,4 @@ var slideIndex = 1;
     } );
 
 
-    $( function() {
-      $( "#draggable1" ).draggable();
-    } );
+   
