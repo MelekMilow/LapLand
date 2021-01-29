@@ -57,4 +57,10 @@ body{
 }
 
 
+.ui-dialog, .ui-widget, .ui-widget-content, .ui-corner-all, .foo, .ui-draggable, .ui-resizable{
+  background: black !important;
+  color: rgb(221 164 97) !important;
+}
+
+
 
