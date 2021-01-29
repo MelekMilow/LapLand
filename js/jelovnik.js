@@ -60,3 +60,8 @@ var slideIndex = 1;
         event: "mouseover"
       });
     } );
+
+
+    $( function() {
+      $( "#draggable1" ).draggable();
+    } );
