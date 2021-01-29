@@ -148,3 +148,34 @@ h3,p{
 }
 
 
+#draggable{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  border: 0px;
+}
+
+.acc{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.dugmeacc{
+  display: flex;
+  justify-content: center;
+}
+.toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none;}
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: flex; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+.tabovi{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.samp{
+  display: flex;
+  justify-content: center;
+}
