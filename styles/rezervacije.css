@@ -93,4 +93,9 @@ fieldset{
 
 
 
+.ui-tooltip { background:white; color:black; padding:0; 
+  border-radius: 50px;
+  width:300px; }
+.ui-tooltip-content { position: relative; padding: 10px; }
+
 
