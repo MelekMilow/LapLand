@@ -62,7 +62,5 @@ function brojOsoba() {
   } ;
 
   
-  $( function() {
-    $( document ).tooltip();
-  } );
+ 
   
